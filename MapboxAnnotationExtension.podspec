@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "MapboxAnnotationExtension"
-  s.dependency "Mapbox-iOS-SDK", "~> 6.0"
+  s.dependency "Mapbox-iOS-SDK", :git => 'https://github.com/stereojeka/mapbox-gl-native-ios.git', :branch => 'main'
 
 end
