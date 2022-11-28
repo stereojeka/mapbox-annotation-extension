@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "MapboxAnnotationExtension"
-  s.dependency "stereojeka/Mapbox-iOS-SDK"
+  s.dependency "Mapbox-iOS-SDK", "~> 6.0"
 
 end
